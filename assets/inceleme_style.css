@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body > div{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: #004084;
+    display: flex;
+    flex-direction: column;
+
+}
+h3{
+    color: white;
+}
+.upper{
+    background-color: #3b28cc;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 2px solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.kutu{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.6vw;
+    padding: 15px;
+    transition: 500ms;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: #4f83ff;
+}
+.kutu:hover{
+    color: #ffffff;
+    background-color: #0077ff;
+    transition: 500ms;
+    font-size: 1.2vw;
+}
+.kutu:hover img{
+    filter:grayscale(100%) blur(1px);
+    transition: 500ms;
+ }
+ .input_kutu{
+    color: white;
+    padding: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 6px solid #0077ff;
+    background-color: #3b28cc;
+    border-radius: 50px;
+ }
+ .yazilar{
+    text-align: center;
+ }
+ .inputlar{
+    
+    text-align: center;
+ }
+ .alt_kisim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+ }
+ .alt_kisim > div{
+    display: flex;
+    flex-direction: row;
+ }
+ .input_kutu_message{
+    color: white;
+    font-size: larger;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 6px solid #0077ff;
+    background-color: #3b28cc;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 90%;
+    height: 50vh;
+ }
+ .input_gonder{
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 6px solid #0077ff;
+    background-color: #3b28cc;
+    color: white;
+    font-size: xx-large;
+    border-radius: 20px;
+    padding: 10px;
+ }
+ .input_gonder:hover{
+    font-size: 3vw;
+ }
